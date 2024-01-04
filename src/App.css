@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
+}
+
+body {
+  background: #dbd8d8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  text-align: center;
+}
+.title {
+  color: salmon;
+  font-size: 35px;
+  font-weight: 600;
+}
+.container {
+  margin: 20px auto;
+}
+.item-list {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 40px;
+}
+.item-list li {
+  color: #4f4d4d;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* FormComponents */
+label {
+  display: inline-block;
+  margin: 5px 0;
+  color: rgb(97, 97, 99);
+}
+input {
+  border: 1px solid #dedede;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px;
+  width: 100%;
+  color: #5c7eab;
+}
+input:focus {
+  outline: none;
+}
+.btn {
+  background-color: rgb(104, 187, 215);
+  cursor: pointer;
+  margin: 15px 0 15px;
+  display: block;
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  color: #f7f7f7;
+  font-size: 19px;
+  font-weight: 500;
+}
+/* FormComponents */
+
+/* Item  */
+
+.expense {
+  border-right: 5px solid rgb(189, 44, 44);
+}
+.income {
+  border-right: 5px solid #2ecc71;
+}
+/* Item  */
+
+/* Report Components */
+.report-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: whitesmoke;
+  padding: 15px;
+  margin: 15px 0;
+  font-size: 18px;
+  border-radius: 10px;
+}
+.report-container > div {
+  flex: 1;
+  text-align: center;
+}
+.report-container > div:first-of-type {
+  border-right: 2px solid gainsboro;
+}
+.report {
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin: 5px 0;
+}
+
+.report.plus {
+  color: #2ecc71;
+}
+.report.minus {
+  color: rgb(189, 44, 44);
+}
+
+.total,
+.total-result {
+  color: #ef233c;
+}
+
+/* Report Components */
+
+/* Link */
+.horizontal-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.horizontal-menu li {
+  display: inline-block;
+}
+.horizontal-menu a {
+  text-decoration: none;
+  padding: 14px;
+  display: block;
+  color: #2a9d8f;
+  font-size: 18px;
+}
+
+/* Link */
+
+/*Footer */
+.footer {
+  color: #8d99ae;
+  padding: 10px;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer p {
+  margin: 0;
+}
+
+/*Footer */

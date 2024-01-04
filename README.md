@@ -4,4 +4,5 @@
 
 Links
 Solution URL: [https://github.com/hedisnice/QR-Code-Challenge]
-Live Site URL: [https://cheery-naiad-abe7ce.netlify.app/]
+
+Live Site URL: [recordmonetbynice.netlify.app]
